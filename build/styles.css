@@ -1,0 +1,466 @@
+/* Navbar */
+.navLink:hover {
+    transform: scale(1.1);
+}
+
+/* Title section */
+#pinkSection {
+    background-color: #FFDFDE;
+    width: 450px;
+    height: 410px;
+    position: absolute;
+    top: 0vh;
+    left: 15vw;
+    z-index: -1;
+}
+
+#profile {
+    width: 85vh;
+    vertical-align: bottom;
+}
+
+#greeting {
+    font-family: "Montserrat";
+    font-size: 2.3vh;
+    font-weight: 400;
+    margin: 0;
+}
+
+#bigName {
+    font-family: "Playfair display";
+    font-weight: 900;
+    font-size: 18vh;
+    color: #C92020;
+    margin: 0;
+}
+
+#myDescription {
+    font-family: "Montserrat";
+    font-size: 3.5vh;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5;
+    padding-top: 1%;
+}
+
+#titleMainBlock {
+    padding: 1% 0% 0% 5%;
+    height: 100vh;
+}
+
+#titleBlock {
+    vertical-align: top;
+    padding-top: 8%;
+    width: 42%;
+}
+
+#profileBlock {
+    width: 50%;
+}
+
+
+@media (max-width:799px) {
+
+    #titleMainBlock {
+        padding: 0;
+    }
+    
+    #profile {
+        width: 40vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #profileBlock {
+        position: absolute;
+        top: 35vh;
+        width: 100%;
+    }
+
+    #greetingBlock {
+        position: absolute;
+        top: 14vh;
+        width: 100%;
+    }
+
+    #myDescriptionBlock {
+        position: absolute;
+        top: 74vh;
+        padding: 0% 3% 0% 3%;
+    }
+
+    #greeting {
+        font-size: 2vh;
+    }
+
+    #bigName {
+        font-size: 12vh;
+    }
+
+    #titleBlock {
+        text-align: center;
+        vertical-align: top;
+        padding-top: 100px;
+        width: 90%;
+    }
+
+    #pinkSection {
+        background-color: white;
+    }
+
+    #contactButton {
+        margin-top: 20px !important;
+    }
+
+    #myDescription {
+        font-size: 2.8vh;
+    }
+
+    #navbar {
+        background-color: #FFDFDE !important;
+        box-shadow: 2px 3px #F5F5F5 !important;
+    }
+
+}
+
+@media (min-width:515px) and (max-width:799px) {
+
+    #greeting {
+        font-size: 2.2vh;
+    }
+
+    #bigName {
+        font-size: 14vh;
+    }
+
+    #profile {
+        width: 42vh;
+    }
+
+    #myDescription {
+        font-size: 3.2vh;
+    }
+
+    #greetingBlock {
+        top: 16vh;
+    }
+
+    #profileBlock {
+        top: 36vh;
+    }
+
+    #myDescriptionBlock {
+        padding: 0% 12%;
+        top: 78vh;
+    }
+
+}
+
+@media (min-width:800px) and (min-height:1000px) {
+    #profileBlock {
+        display: inline-block;
+        width: 100% !important;
+        text-align: center;
+        margin: 40px 0px !important;
+    }
+
+    #titleBlock {
+        display: inline-block;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #titleMainBlock {
+        padding: 0 5% !important;
+        margin-bottom: 150px !important;
+    }
+
+    #profile {
+        width: 50vh !important;
+    }
+
+    #contactButton {
+        width: 210px;
+        height: 70px;
+        font-size: 2vh;
+    }
+
+
+    #pinkSection {
+        background-color: white;
+    }
+
+    #navbar {
+        background-color: #FFDFDE !important;
+    }
+}
+
+@media (min-width:800px) and (max-width:1200px){
+    #profile {
+        width: 100%;
+    }
+    
+    #profileBlock {
+        display: inline-block;
+        margin-left: 7%;
+        width: 45%;
+        padding-top: 2%;
+    }
+
+    #titleBlock {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .navLink {
+        font-size: 2.5vh !important;
+    }
+
+    #bigName {
+        font-size: 16vh;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 950px) {
+   
+    #titleMainBlock {
+        padding-top: 10%;
+    }
+
+    #myDescription {
+        font-size: 2.9vh;
+    }
+
+    #greeting {
+        font-size: 2.5vh;
+    }
+}
+
+@media (min-width:1200px) {
+    #profileBlock {
+        display: inline-block;
+        margin-left: 7%;
+    }
+
+    #titleBlock {
+        display: inline-block;
+        width: 40%;
+    }
+
+    .navLink {
+        font-size: 2.5vh !important;
+    }
+}
+
+/* Contact Button */
+
+#contactButton:hover {
+    background-color: #FF5757 !important;
+    color: white !important;
+    border: none !important;
+}
+
+/* What I Know */
+
+.subtitle {
+        font-family: "Playfair display";
+        font-weight: 900;
+        font-size: 7vh;
+        color: black;
+        text-align: center;
+}
+
+.nodeCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#83E3B1), to(#E4F8B4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nodeIcon {
+    color: #46BF82;
+}
+
+.htmlCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#A39CF4), to(#DCC8FD));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.htmlIcon {
+    color: #7566DB;
+}
+
+.bootstrapCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF9995), to(#FED5BF));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bootstrapIcon {
+    color: #E76963;
+}
+
+.jsCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FEBF87), to(#FEEFBB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jsIcon {
+    color: #FF9047;
+}
+
+.reactCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FEB2E7), to(#FFDAE6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.reactIcon {
+    color: #E778C1;
+}
+
+.muiLogo {
+    border-radius: 50%;
+    padding: 5px;
+    background-image: linear-gradient(#9DBAFD, #A9E2F1);
+}
+
+.jQueryLogo {
+    border-radius: 50%;
+    padding: 15px;
+    background-image: linear-gradient(#0FC4D9, #CDE2E6);
+}
+
+.cssCircle {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FDCA4A), to(#F2EDC2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cssIcon {
+    color: #F3B004;
+}
+
+.skillItem {
+    display: inline-block;
+    width: 40vh;
+    text-align: center;
+    margin: 5px 50px;
+    font-size: 2.7vh;
+    padding-top: 5%;
+}
+
+p {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.skillDescription {
+    font-family: "Playfair display";
+    font-weight: 400;
+}
+
+/* Homepage - Footer */
+
+.footer-icon {
+    margin: 20px 10px;
+  }
+
+.footer-icon:hover {
+    transform: scale(1.2);
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color:black;
+}
+
+  #footer {
+    background-color: #FFDFDE;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5% 0%;
+    color: black;
+    padding-left: 0;
+    text-align: center;
+  }
+
+/* Contact Page */
+
+#contactPage {
+    text-align: center;
+    padding: 11vh 2vh;
+}
+
+#questionBox {
+    width: 395px;
+    margin-top: 20px;
+    font-family: "Montserrat";
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.contactInput {
+    padding: 7px;
+    width: 400px;
+    margin-top: 20px;
+    font-family: "Montserrat";
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+#sendButton {
+    margin-top: 10px;
+    width: 415px;
+    border-radius: 15px;
+    padding: 7px;
+    font-family: "Montserrat";
+    background-color: #FF5757;
+}
+
+@media (max-width: 500px) {
+    #questionBox {
+        width: 290px !important;
+    }
+
+    .contactInput {
+        width: 300px !important;
+    }
+
+    #sendButton {
+        width: 310px;
+    }
+}
+
+/* Success page */
+#successPage {
+    text-align: center;
+    padding-top: 25vh;
+}
+
+#succesHomeButton:visited {
+        color: white;
+}
+
+/* Portfolio Page */
+
+@media (max-width: 570px) {
+    #portfolioTitle {
+        font-size: 3vh !important;
+    }
+
+    #portfolioDescription {
+        font-size: 2.3vh !important;
+        padding: 1vh 0 !important;
+    }
+
+}
