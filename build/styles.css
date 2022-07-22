@@ -9,7 +9,7 @@
     width: 450px;
     height: 410px;
     position: absolute;
-    top: 0vh;
+    top: 0;
     left: 15vw;
     z-index: -1;
 }
@@ -21,7 +21,7 @@
 
 #greeting {
     font-family: "Montserrat";
-    font-size: 2.3vh;
+    font-size: 15px;
     font-weight: 400;
     margin: 0;
 }
@@ -29,14 +29,14 @@
 #bigName {
     font-family: "Playfair display";
     font-weight: 900;
-    font-size: 18vh;
+    font-size: 130px;
     color: #C92020;
     margin: 0;
 }
 
 #myDescription {
     font-family: "Montserrat";
-    font-size: 3.5vh;
+    font-size: 25px;
     font-weight: 400;
     margin: 0;
     line-height: 1.5;
@@ -90,12 +90,8 @@
         padding: 0% 3% 0% 3%;
     }
 
-    #greeting {
-        font-size: 2vh;
-    }
-
     #bigName {
-        font-size: 12vh;
+        font-size: 90px;
     }
 
     #titleBlock {
@@ -114,7 +110,7 @@
     }
 
     #myDescription {
-        font-size: 2.8vh;
+        font-size: 20px;
     }
 
     #navbar {
@@ -127,11 +123,11 @@
 @media (min-width:515px) and (max-width:799px) {
 
     #greeting {
-        font-size: 2.2vh;
+        font-size: 17px;
     }
 
     #bigName {
-        font-size: 14vh;
+        font-size: 110px;
     }
 
     #profile {
@@ -139,7 +135,7 @@
     }
 
     #myDescription {
-        font-size: 3.2vh;
+        font-size: 25px;
     }
 
     #greetingBlock {
@@ -180,13 +176,6 @@
         width: 50vh !important;
     }
 
-    #contactButton {
-        width: 210px;
-        height: 70px;
-        font-size: 2vh;
-    }
-
-
     #pinkSection {
         background-color: white;
     }
@@ -214,11 +203,11 @@
     }
 
     .navLink {
-        font-size: 2.5vh !important;
+        font-size: 17px !important;
     }
 
     #bigName {
-        font-size: 16vh;
+        font-size: 120px;
     }
 
 }
@@ -230,7 +219,7 @@
     }
 
     #myDescription {
-        font-size: 2.9vh;
+        font-size: 20px;
     }
 
     #greeting {
@@ -250,13 +239,13 @@
     }
 
     .navLink {
-        font-size: 2.5vh !important;
+        font-size: 20px !important;
     }
 }
 
 /* Contact Button */
 
-#contactButton:hover {
+.mainButton:hover {
     background-color: #FF5757 !important;
     color: white !important;
     border: none !important;
@@ -267,7 +256,7 @@
 .subtitle {
         font-family: "Playfair display";
         font-weight: 900;
-        font-size: 7vh;
+        font-size: 50px;
         color: black;
         text-align: center;
 }
@@ -349,7 +338,7 @@
     width: 40vh;
     text-align: center;
     margin: 5px 50px;
-    font-size: 2.7vh;
+    font-size: 20px;
     padding-top: 5%;
 }
 
@@ -455,12 +444,15 @@ a:link {
 
 @media (max-width: 570px) {
     #portfolioTitle {
-        font-size: 3vh !important;
+        font-size: 22px !important;
     }
 
     #portfolioDescription {
-        font-size: 2.3vh !important;
+        font-size: 19px !important;
         padding: 1vh 0 !important;
     }
+}
 
+#projectImage:hover {
+    transform: scale(1.01);
 }
